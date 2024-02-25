@@ -1,4 +1,4 @@
-# Realtime Data Streaming | End-to-End Data Engineering Project
+# Realtime Data Streaming Pipeline
 
 ## Introduction 
 This project employs a multifaceted technological stack to establish an end-to-end data processing pipeline. The workflow commences by fetching data from the `randomuser.me` API to generate synthetic user data. This raw data is subsequently channeled through **Apache Airflow** for data orchestration and storage in a **PostgreSQL** database. 
@@ -28,11 +28,4 @@ The entire pipeline is encapsulated within **Docker** containers, affording a st
 - Employing data processing techniques powered by Apache Spark for efficient and scalable data transformation and analysis.
 - Utilizing data storage solutions with PostgreSQL and Cassandra to securely store and manage structured and unstructured data, respectively.
 - Containerizing the entire data engineering infrastructure with Docker to ensure portability and ease of deployment across various environments.
-
-## Acknowledgements
-I would like to thank [Yusuf Ganiyu](https://www.linkedin.com/in/yusuf-ganiyu-b90140107/) for this amazing project. 
-
-
-Please follow the tutorial here to build this data engineering pipeline yourself.
-[YouTube Video Tutorial](https://www.youtube.com/watch?v=GqAcTrqKcrY)
-
+  
